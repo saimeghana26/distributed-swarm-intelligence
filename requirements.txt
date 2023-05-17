@@ -1,0 +1,27 @@
+panel
+ray
+holoviews
+bokeh
+pandas
+numpy
+
+To run this project please follow the steps provided below:
+
+we hope a python version > 3.7 is already installed on your device.
+All the libraries required for this project are in OS_project folder.
+
+1)Open karmeg.py and after imports at ray.init(_node_ip_address=<'give an ipaddress of your devices that connected on a same network and would like to connect as worker nodes'>, _redis_password=<'password of your choice, please remember'>)
+
+2)Open command prompt (run as administrator) and go to path of OS_project on your device.
+
+3)Now run this command, panel serve karmeg.py --show --address=<ipaddress> --port=<port number> --allow-websocket-origin=<ipaddress:port>
+
+4)To view Ray dashboard, see the command prompt for <http://127.0.0.1:8265> and open experimental dashboard -> Alive <left click> -> Raylet <scroll down, in the last note down --gcs-address port number>.
+
+5)Now, your device is a head node.
+
+6)To connect a worker node, run this command on another command prompt (run as administrator) and go to path of OS_project on your device, ray start  --node-ip-address=<ipaddress:gcs_port_number> --redis-password=<password>
+
+That's it. NOW, THIS PYTHON WEB APPLICATION IS FUNCTIONING WITH DISTRIBUTED COMPUTING.
+
+
