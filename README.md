@@ -42,8 +42,12 @@ cd distributed-swarm-intelligence
 ```bash
 pip install -r requirements.txt
 ```
+3. Setup RAY on your system for distributed computing using the steps from link below
 
-3. Run the application:
+```bash
+https://docs.ray.io/en/latest/ray-overview/installation.html)https://docs.ray.io/en/latest/ray-overview/installation.html
+```
+4. Run the application:
 
 ```bash
 python karmeg.py
