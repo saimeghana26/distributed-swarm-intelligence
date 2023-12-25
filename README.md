@@ -33,8 +33,8 @@ To get started with the PSO Web Application, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pso-web-app.git
-cd pso-web-app
+git clone https://github.com/saimeghana26/distributed-swarm-intelligence.git
+cd distributed-swarm-intelligence
 ```
 
 2. Install the required dependencies:
@@ -46,6 +46,6 @@ pip install -r requirements.txt
 3. Run the application:
 
 ```bash
-python app.py
+python karmeg.py
 ```
 
